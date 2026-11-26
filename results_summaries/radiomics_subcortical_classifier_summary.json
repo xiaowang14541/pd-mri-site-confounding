@@ -1,0 +1,295 @@
+{
+  "lodo": {
+    "logreg": {
+      "per_fold": [
+        {
+          "held_out_dataset": "ds000245",
+          "n_val": 44,
+          "n_pd_val": 15,
+          "n_hc_val": 29,
+          "accuracy": 0.5,
+          "auc": 0.5103448275862068
+        },
+        {
+          "held_out_dataset": "ds001907",
+          "n_val": 46,
+          "n_pd_val": 21,
+          "n_hc_val": 25,
+          "accuracy": 0.5,
+          "auc": 0.4647619047619047
+        },
+        {
+          "held_out_dataset": "ds003592",
+          "n_val": 90,
+          "n_pd_val": 0,
+          "n_hc_val": 90,
+          "accuracy": 0.4777777777777778,
+          "auc": null
+        },
+        {
+          "held_out_dataset": "ds004392",
+          "n_val": 58,
+          "n_pd_val": 58,
+          "n_hc_val": 0,
+          "accuracy": 0.39655172413793105,
+          "auc": null
+        },
+        {
+          "held_out_dataset": "ds004471",
+          "n_val": 40,
+          "n_pd_val": 40,
+          "n_hc_val": 0,
+          "accuracy": 0.425,
+          "auc": null
+        }
+      ],
+      "pooled": {
+        "n_total": 278,
+        "accuracy": 0.460431654676259,
+        "f1_score": 0.44029850746268656,
+        "precision": 0.44029850746268656,
+        "recall": 0.44029850746268656,
+        "confusion_matrix": [
+          [
+            69,
+            75
+          ],
+          [
+            75,
+            59
+          ]
+        ],
+        "auc": 0.44786484245439473,
+        "specificity": 0.4791666666666667,
+        "sensitivity": 0.44029850746268656
+      }
+    },
+    "random_forest": {
+      "per_fold": [
+        {
+          "held_out_dataset": "ds000245",
+          "n_val": 44,
+          "n_pd_val": 15,
+          "n_hc_val": 29,
+          "accuracy": 0.38636363636363635,
+          "auc": 0.5241379310344827
+        },
+        {
+          "held_out_dataset": "ds001907",
+          "n_val": 46,
+          "n_pd_val": 21,
+          "n_hc_val": 25,
+          "accuracy": 0.43478260869565216,
+          "auc": 0.5066666666666666
+        },
+        {
+          "held_out_dataset": "ds003592",
+          "n_val": 90,
+          "n_pd_val": 0,
+          "n_hc_val": 90,
+          "accuracy": 0.08888888888888889,
+          "auc": null
+        },
+        {
+          "held_out_dataset": "ds004392",
+          "n_val": 58,
+          "n_pd_val": 58,
+          "n_hc_val": 0,
+          "accuracy": 0.43103448275862066,
+          "auc": null
+        },
+        {
+          "held_out_dataset": "ds004471",
+          "n_val": 40,
+          "n_pd_val": 40,
+          "n_hc_val": 0,
+          "accuracy": 0.6,
+          "auc": null
+        }
+      ],
+      "pooled": {
+        "n_total": 278,
+        "accuracy": 0.3381294964028777,
+        "f1_score": 0.4491017964071856,
+        "precision": 0.375,
+        "recall": 0.5597014925373134,
+        "confusion_matrix": [
+          [
+            19,
+            125
+          ],
+          [
+            59,
+            75
+          ]
+        ],
+        "auc": 0.29379145936981754,
+        "specificity": 0.13194444444444445,
+        "sensitivity": 0.5597014925373134
+      }
+    },
+    "svm_rbf": {
+      "per_fold": [
+        {
+          "held_out_dataset": "ds000245",
+          "n_val": 44,
+          "n_pd_val": 15,
+          "n_hc_val": 29,
+          "accuracy": 0.38636363636363635,
+          "auc": 0.4666666666666667
+        },
+        {
+          "held_out_dataset": "ds001907",
+          "n_val": 46,
+          "n_pd_val": 21,
+          "n_hc_val": 25,
+          "accuracy": 0.5217391304347826,
+          "auc": 0.5104761904761905
+        },
+        {
+          "held_out_dataset": "ds003592",
+          "n_val": 90,
+          "n_pd_val": 0,
+          "n_hc_val": 90,
+          "accuracy": 0.044444444444444446,
+          "auc": null
+        },
+        {
+          "held_out_dataset": "ds004392",
+          "n_val": 58,
+          "n_pd_val": 58,
+          "n_hc_val": 0,
+          "accuracy": 0.25862068965517243,
+          "auc": null
+        },
+        {
+          "held_out_dataset": "ds004471",
+          "n_val": 40,
+          "n_pd_val": 40,
+          "n_hc_val": 0,
+          "accuracy": 0.65,
+          "auc": null
+        }
+      ],
+      "pooled": {
+        "n_total": 278,
+        "accuracy": 0.30935251798561153,
+        "f1_score": 0.3924050632911392,
+        "precision": 0.34065934065934067,
+        "recall": 0.4626865671641791,
+        "confusion_matrix": [
+          [
+            24,
+            120
+          ],
+          [
+            72,
+            62
+          ]
+        ],
+        "auc": 0.30542599502487566,
+        "specificity": 0.16666666666666666,
+        "sensitivity": 0.4626865671641791
+      }
+    }
+  },
+  "ds000245_internal": {
+    "logreg": {
+      "pooled": {
+        "n_total": 44,
+        "accuracy": 0.6136363636363636,
+        "f1_score": 0.5142857142857142,
+        "precision": 0.45,
+        "recall": 0.6,
+        "confusion_matrix": [
+          [
+            18,
+            11
+          ],
+          [
+            6,
+            9
+          ]
+        ],
+        "auc": 0.6252873563218391,
+        "specificity": 0.6206896551724138,
+        "sensitivity": 0.6
+      },
+      "mean_std_across_folds": {
+        "accuracy": [
+          0.611111111111111,
+          0.1571348402636772
+        ],
+        "auc": [
+          0.6533333333333334,
+          0.12460307350112167
+        ]
+      }
+    },
+    "random_forest": {
+      "pooled": {
+        "n_total": 44,
+        "accuracy": 0.7045454545454546,
+        "f1_score": 0.48,
+        "precision": 0.6,
+        "recall": 0.4,
+        "confusion_matrix": [
+          [
+            25,
+            4
+          ],
+          [
+            9,
+            6
+          ]
+        ],
+        "auc": 0.6275862068965518,
+        "specificity": 0.8620689655172413,
+        "sensitivity": 0.4
+      },
+      "mean_std_across_folds": {
+        "accuracy": [
+          0.7055555555555555,
+          0.048432210483785286
+        ],
+        "auc": [
+          0.6222222222222222,
+          0.12372809695177828
+        ]
+      }
+    },
+    "svm_rbf": {
+      "pooled": {
+        "n_total": 44,
+        "accuracy": 0.6590909090909091,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "confusion_matrix": [
+          [
+            29,
+            0
+          ],
+          [
+            15,
+            0
+          ]
+        ],
+        "auc": 0.37471264367816093,
+        "specificity": 1.0,
+        "sensitivity": 0.0
+      },
+      "mean_std_across_folds": {
+        "accuracy": [
+          0.6583333333333333,
+          0.016666666666666653
+        ],
+        "auc": [
+          0.3911111111111111,
+          0.13615532161813684
+        ]
+      }
+    }
+  },
+  "n_features": 58
+}

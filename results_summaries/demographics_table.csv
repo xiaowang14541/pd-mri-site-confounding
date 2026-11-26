@@ -1,0 +1,6 @@
+Dataset,Class,N,Age (mean+/-SD),Age range,Male/Female,Notes
+ds000245,HC,30,63.9+/-6.2,52-75,13/17,
+ds000245,PD,15,70.7+/-4.8,60-78,7/8,
+ds003592,HC only,90,67.5+/-5.7,60-83,41/49,HC only
+ds004392,PD only,58,70.0+/-7.5,55-85,39/0,"sex:1=M,2=F"
+ds004471,PD only,40,60.2+/-6.8,38-70,26/14,Dis.dur:11.6+/-4.0yr

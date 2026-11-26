@@ -1,0 +1,76 @@
+{
+  "per_fold": [
+    {
+      "held_out_dataset": "ds000245",
+      "n_val": 44,
+      "n_pd_val": 15,
+      "n_hc_val": 29,
+      "accuracy": 0.38636363636363635,
+      "train_domain_map": {
+        "ds003592": 0,
+        "ds004392": 1,
+        "ds004471": 2
+      },
+      "auc": 0.46551724137931033
+    },
+    {
+      "held_out_dataset": "ds003592",
+      "n_val": 90,
+      "n_pd_val": 0,
+      "n_hc_val": 90,
+      "accuracy": 0.06666666666666667,
+      "train_domain_map": {
+        "ds000245": 0,
+        "ds004392": 1,
+        "ds004471": 2
+      },
+      "auc": null
+    },
+    {
+      "held_out_dataset": "ds004392",
+      "n_val": 58,
+      "n_pd_val": 58,
+      "n_hc_val": 0,
+      "accuracy": 0.27586206896551724,
+      "train_domain_map": {
+        "ds000245": 0,
+        "ds003592": 1,
+        "ds004471": 2
+      },
+      "auc": null
+    },
+    {
+      "held_out_dataset": "ds004471",
+      "n_val": 40,
+      "n_pd_val": 40,
+      "n_hc_val": 0,
+      "accuracy": 0.275,
+      "train_domain_map": {
+        "ds000245": 0,
+        "ds003592": 1,
+        "ds004392": 2
+      },
+      "auc": null
+    }
+  ],
+  "pooled_lodo_result": {
+    "n_total": 232,
+    "accuracy": 0.21551724137931033,
+    "auc": 0.13382167026102476,
+    "f1_score": 0.3106060606060606,
+    "precision": 0.271523178807947,
+    "recall": 0.36283185840707965,
+    "confusion_matrix": [
+      [
+        9,
+        110
+      ],
+      [
+        72,
+        41
+      ]
+    ],
+    "specificity": 0.07563025210084033,
+    "sensitivity": 0.36283185840707965
+  }
+}

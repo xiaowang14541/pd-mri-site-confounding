@@ -1,0 +1,42 @@
+{
+  "feature_panel": [
+    "original_glrlm_RunVariance",
+    "original_glrlm_LongRunLowGrayLevelEmphasis",
+    "original_glcm_JointEnergy",
+    "original_glcm_JointEntropy",
+    "original_glcm_ClusterTendency"
+  ],
+  "discovery_n": 44,
+  "external_n": 188,
+  "external_auc": 0.46031746031746035,
+  "external_accuracy": 0.4521276595744681,
+  "external_f1": 0.455026455026455,
+  "external_precision": 0.4725274725274725,
+  "external_recall": 0.4387755102040816,
+  "external_specificity": 0.4666666666666667,
+  "external_sensitivity": 0.4387755102040816,
+  "external_confusion_matrix": [
+    [
+      42,
+      48
+    ],
+    [
+      55,
+      43
+    ]
+  ],
+  "per_site_accuracy": {
+    "ds003592": {
+      "n": 90,
+      "accuracy": 0.4666666666666667
+    },
+    "ds004392": {
+      "n": 58,
+      "accuracy": 0.41379310344827586
+    },
+    "ds004471": {
+      "n": 40,
+      "accuracy": 0.475
+    }
+  }
+}

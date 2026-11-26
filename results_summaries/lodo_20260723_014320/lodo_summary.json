@@ -1,0 +1,56 @@
+{
+  "per_fold": [
+    {
+      "held_out_dataset": "ds000245",
+      "n_val": 44,
+      "n_pd_val": 15,
+      "n_hc_val": 29,
+      "accuracy": 0.5681818181818182,
+      "auc": 0.5287356321839081
+    },
+    {
+      "held_out_dataset": "ds003592",
+      "n_val": 90,
+      "n_pd_val": 0,
+      "n_hc_val": 90,
+      "accuracy": 0.03333333333333333,
+      "auc": null
+    },
+    {
+      "held_out_dataset": "ds004392",
+      "n_val": 58,
+      "n_pd_val": 58,
+      "n_hc_val": 0,
+      "accuracy": 0.22413793103448276,
+      "auc": null
+    },
+    {
+      "held_out_dataset": "ds004471",
+      "n_val": 40,
+      "n_pd_val": 40,
+      "n_hc_val": 0,
+      "accuracy": 0.275,
+      "auc": null
+    }
+  ],
+  "pooled_lodo_result": {
+    "n_total": 232,
+    "accuracy": 0.22413793103448276,
+    "auc": 0.18710493046776233,
+    "f1_score": 0.26229508196721313,
+    "precision": 0.24427480916030533,
+    "recall": 0.2831858407079646,
+    "confusion_matrix": [
+      [
+        20,
+        99
+      ],
+      [
+        81,
+        32
+      ]
+    ],
+    "specificity": 0.16806722689075632,
+    "sensitivity": 0.2831858407079646
+  }
+}

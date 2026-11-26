@@ -1,0 +1,214 @@
+{
+  "exploratory_screen_top15": [
+    {
+      "feature": "original_glcm_JointEnergy",
+      "auc": 0.7724137931034483,
+      "p_value": 0.0034823102446136125,
+      "higher_in_pd_direction": false,
+      "p_fdr": 0.0315864897665136,
+      "significant_after_fdr": true
+    },
+    {
+      "feature": "original_glcm_SumEntropy",
+      "auc": 0.7724137931034483,
+      "p_value": 0.0034823102446136125,
+      "higher_in_pd_direction": true,
+      "p_fdr": 0.0315864897665136,
+      "significant_after_fdr": true
+    },
+    {
+      "feature": "original_glcm_JointEntropy",
+      "auc": 0.7701149425287356,
+      "p_value": 0.00376933203316091,
+      "higher_in_pd_direction": true,
+      "p_fdr": 0.0315864897665136,
+      "significant_after_fdr": true
+    },
+    {
+      "feature": "original_glcm_MaximumProbability",
+      "auc": 0.767816091954023,
+      "p_value": 0.004077695324558166,
+      "higher_in_pd_direction": false,
+      "p_fdr": 0.0315864897665136,
+      "significant_after_fdr": true
+    },
+    {
+      "feature": "original_glrlm_RunVariance",
+      "auc": 0.7632183908045977,
+      "p_value": 0.004764054837482699,
+      "higher_in_pd_direction": false,
+      "p_fdr": 0.0315864897665136,
+      "significant_after_fdr": true
+    },
+    {
+      "feature": "original_glcm_JointAverage",
+      "auc": 0.7563218390804598,
+      "p_value": 0.005990681312712138,
+      "higher_in_pd_direction": false,
+      "p_fdr": 0.0315864897665136,
+      "significant_after_fdr": true
+    },
+    {
+      "feature": "original_glcm_SumSquares",
+      "auc": 0.7563218390804598,
+      "p_value": 0.005990681312712138,
+      "higher_in_pd_direction": true,
+      "p_fdr": 0.0315864897665136,
+      "significant_after_fdr": true
+    },
+    {
+      "feature": "original_glcm_SumAverage",
+      "auc": 0.7563218390804598,
+      "p_value": 0.005990681312712138,
+      "higher_in_pd_direction": false,
+      "p_fdr": 0.0315864897665136,
+      "significant_after_fdr": true
+    },
+    {
+      "feature": "original_glcm_Autocorrelation",
+      "auc": 0.7563218390804598,
+      "p_value": 0.005990681312712138,
+      "higher_in_pd_direction": false,
+      "p_fdr": 0.0315864897665136,
+      "significant_after_fdr": true
+    },
+    {
+      "feature": "original_firstorder_Entropy",
+      "auc": 0.7494252873563219,
+      "p_value": 0.007494957516935239,
+      "higher_in_pd_direction": true,
+      "p_fdr": 0.0315864897665136,
+      "significant_after_fdr": true
+    },
+    {
+      "feature": "original_firstorder_Uniformity",
+      "auc": 0.7494252873563219,
+      "p_value": 0.007494957516935239,
+      "higher_in_pd_direction": false,
+      "p_fdr": 0.0315864897665136,
+      "significant_after_fdr": true
+    },
+    {
+      "feature": "original_glrlm_LongRunLowGrayLevelEmphasis",
+      "auc": 0.7448275862068966,
+      "p_value": 0.008677779275893506,
+      "higher_in_pd_direction": false,
+      "p_fdr": 0.0315864897665136,
+      "significant_after_fdr": true
+    },
+    {
+      "feature": "original_glrlm_LongRunHighGrayLevelEmphasis",
+      "auc": 0.7448275862068965,
+      "p_value": 0.008677779275893506,
+      "higher_in_pd_direction": false,
+      "p_fdr": 0.0315864897665136,
+      "significant_after_fdr": true
+    },
+    {
+      "feature": "original_glrlm_LongRunEmphasis",
+      "auc": 0.7425287356321839,
+      "p_value": 0.009329584719771562,
+      "higher_in_pd_direction": false,
+      "p_fdr": 0.0315864897665136,
+      "significant_after_fdr": true
+    },
+    {
+      "feature": "original_glcm_ClusterTendency",
+      "auc": 0.7379310344827587,
+      "p_value": 0.010765620318714338,
+      "higher_in_pd_direction": true,
+      "p_fdr": 0.0315864897665136,
+      "significant_after_fdr": true
+    }
+  ],
+  "n_significant_after_fdr": 32,
+  "n_features_tested": 58,
+  "nested_cv_top1_feature": {
+    "top_k": 1,
+    "pooled_auc": 0.6114942528735632,
+    "pooled_accuracy": 0.5909090909090909,
+    "sensitivity": 0.8,
+    "specificity": 0.4827586206896552,
+    "confusion_matrix": [
+      [
+        14,
+        15
+      ],
+      [
+        3,
+        12
+      ]
+    ],
+    "selected_features_per_fold": [
+      [
+        "original_glrlm_RunVariance"
+      ],
+      [
+        "original_glrlm_LongRunLowGrayLevelEmphasis"
+      ],
+      [
+        "original_glcm_ClusterTendency"
+      ],
+      [
+        "original_glcm_JointEnergy"
+      ],
+      [
+        "original_glrlm_RunVariance"
+      ]
+    ]
+  },
+  "nested_cv_top5_features": {
+    "top_k": 5,
+    "pooled_auc": 0.6597701149425288,
+    "pooled_accuracy": 0.6363636363636364,
+    "sensitivity": 0.8666666666666667,
+    "specificity": 0.5172413793103449,
+    "confusion_matrix": [
+      [
+        15,
+        14
+      ],
+      [
+        2,
+        13
+      ]
+    ],
+    "selected_features_per_fold": [
+      [
+        "original_glrlm_RunVariance",
+        "original_glrlm_LongRunLowGrayLevelEmphasis",
+        "original_firstorder_Mean",
+        "original_glcm_JointEnergy",
+        "original_glcm_JointEntropy"
+      ],
+      [
+        "original_glrlm_LongRunLowGrayLevelEmphasis",
+        "original_glrlm_RunVariance",
+        "original_glrlm_LongRunEmphasis",
+        "original_glcm_Contrast",
+        "original_glcm_DifferenceAverage"
+      ],
+      [
+        "original_glcm_ClusterTendency",
+        "original_firstorder_Entropy",
+        "original_firstorder_Uniformity",
+        "original_glcm_JointAverage",
+        "original_glcm_JointEnergy"
+      ],
+      [
+        "original_glcm_JointEnergy",
+        "original_glcm_SumEntropy",
+        "original_glcm_JointEntropy",
+        "original_glcm_MaximumProbability",
+        "original_glcm_JointAverage"
+      ],
+      [
+        "original_glrlm_RunVariance",
+        "original_glrlm_LongRunLowGrayLevelEmphasis",
+        "original_glcm_JointEntropy",
+        "original_glcm_SumEntropy",
+        "original_glrlm_LongRunEmphasis"
+      ]
+    ]
+  }
+}

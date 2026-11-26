@@ -1,0 +1,13 @@
+{
+  "held_out_dataset": "ds004471",
+  "n_val": 40,
+  "n_pd_val": 40,
+  "n_hc_val": 0,
+  "accuracy": 0.275,
+  "train_domain_map": {
+    "ds000245": 0,
+    "ds003592": 1,
+    "ds004392": 2
+  },
+  "auc": null
+}

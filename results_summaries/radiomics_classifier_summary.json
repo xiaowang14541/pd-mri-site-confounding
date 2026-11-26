@@ -1,0 +1,271 @@
+{
+  "lodo": {
+    "logreg": {
+      "per_fold": [
+        {
+          "held_out_dataset": "ds000245",
+          "n_val": 44,
+          "n_pd_val": 15,
+          "n_hc_val": 29,
+          "accuracy": 0.4318181818181818,
+          "auc": 0.5448275862068965
+        },
+        {
+          "held_out_dataset": "ds003592",
+          "n_val": 90,
+          "n_pd_val": 0,
+          "n_hc_val": 90,
+          "accuracy": 0.34444444444444444,
+          "auc": null
+        },
+        {
+          "held_out_dataset": "ds004392",
+          "n_val": 58,
+          "n_pd_val": 58,
+          "n_hc_val": 0,
+          "accuracy": 0.5172413793103449,
+          "auc": null
+        },
+        {
+          "held_out_dataset": "ds004471",
+          "n_val": 40,
+          "n_pd_val": 40,
+          "n_hc_val": 0,
+          "accuracy": 0.525,
+          "auc": null
+        }
+      ],
+      "pooled": {
+        "n_total": 232,
+        "accuracy": 0.4353448275862069,
+        "f1_score": 0.46530612244897956,
+        "precision": 0.4318181818181818,
+        "recall": 0.504424778761062,
+        "confusion_matrix": [
+          [
+            44,
+            75
+          ],
+          [
+            56,
+            57
+          ]
+        ],
+        "auc": 0.41756525619097196,
+        "specificity": 0.3697478991596639,
+        "sensitivity": 0.504424778761062
+      }
+    },
+    "random_forest": {
+      "per_fold": [
+        {
+          "held_out_dataset": "ds000245",
+          "n_val": 44,
+          "n_pd_val": 15,
+          "n_hc_val": 29,
+          "accuracy": 0.36363636363636365,
+          "auc": 0.5103448275862069
+        },
+        {
+          "held_out_dataset": "ds003592",
+          "n_val": 90,
+          "n_pd_val": 0,
+          "n_hc_val": 90,
+          "accuracy": 0.022222222222222223,
+          "auc": null
+        },
+        {
+          "held_out_dataset": "ds004392",
+          "n_val": 58,
+          "n_pd_val": 58,
+          "n_hc_val": 0,
+          "accuracy": 0.46551724137931033,
+          "auc": null
+        },
+        {
+          "held_out_dataset": "ds004471",
+          "n_val": 40,
+          "n_pd_val": 40,
+          "n_hc_val": 0,
+          "accuracy": 0.675,
+          "auc": null
+        }
+      ],
+      "pooled": {
+        "n_total": 232,
+        "accuracy": 0.3103448275862069,
+        "f1_score": 0.4520547945205479,
+        "precision": 0.3687150837988827,
+        "recall": 0.584070796460177,
+        "confusion_matrix": [
+          [
+            6,
+            113
+          ],
+          [
+            47,
+            66
+          ]
+        ],
+        "auc": 0.29069680969733025,
+        "specificity": 0.05042016806722689,
+        "sensitivity": 0.584070796460177
+      }
+    },
+    "svm_rbf": {
+      "per_fold": [
+        {
+          "held_out_dataset": "ds000245",
+          "n_val": 44,
+          "n_pd_val": 15,
+          "n_hc_val": 29,
+          "accuracy": 0.4318181818181818,
+          "auc": 0.4597701149425288
+        },
+        {
+          "held_out_dataset": "ds003592",
+          "n_val": 90,
+          "n_pd_val": 0,
+          "n_hc_val": 90,
+          "accuracy": 0.0,
+          "auc": null
+        },
+        {
+          "held_out_dataset": "ds004392",
+          "n_val": 58,
+          "n_pd_val": 58,
+          "n_hc_val": 0,
+          "accuracy": 0.41379310344827586,
+          "auc": null
+        },
+        {
+          "held_out_dataset": "ds004471",
+          "n_val": 40,
+          "n_pd_val": 40,
+          "n_hc_val": 0,
+          "accuracy": 0.5,
+          "auc": null
+        }
+      ],
+      "pooled": {
+        "n_total": 232,
+        "accuracy": 0.27155172413793105,
+        "f1_score": 0.4028268551236749,
+        "precision": 0.3352941176470588,
+        "recall": 0.504424778761062,
+        "confusion_matrix": [
+          [
+            6,
+            113
+          ],
+          [
+            56,
+            57
+          ]
+        ],
+        "auc": 0.20063954785454002,
+        "specificity": 0.05042016806722689,
+        "sensitivity": 0.504424778761062
+      }
+    }
+  },
+  "ds000245_internal": {
+    "logreg": {
+      "pooled": {
+        "n_total": 44,
+        "accuracy": 0.4772727272727273,
+        "f1_score": 0.3783783783783784,
+        "precision": 0.3181818181818182,
+        "recall": 0.4666666666666667,
+        "confusion_matrix": [
+          [
+            14,
+            15
+          ],
+          [
+            8,
+            7
+          ]
+        ],
+        "auc": 0.5080459770114942,
+        "specificity": 0.4827586206896552,
+        "sensitivity": 0.4666666666666667
+      },
+      "mean_std_across_folds": {
+        "accuracy": [
+          0.4833333333333334,
+          0.17177360926378119
+        ],
+        "auc": [
+          0.54,
+          0.24084214388600048
+        ]
+      }
+    },
+    "random_forest": {
+      "pooled": {
+        "n_total": 44,
+        "accuracy": 0.5909090909090909,
+        "f1_score": 0.35714285714285715,
+        "precision": 0.38461538461538464,
+        "recall": 0.3333333333333333,
+        "confusion_matrix": [
+          [
+            21,
+            8
+          ],
+          [
+            10,
+            5
+          ]
+        ],
+        "auc": 0.5701149425287356,
+        "specificity": 0.7241379310344828,
+        "sensitivity": 0.3333333333333333
+      },
+      "mean_std_across_folds": {
+        "accuracy": [
+          0.5916666666666666,
+          0.0840708108356753
+        ],
+        "auc": [
+          0.5866666666666667,
+          0.14713729206441648
+        ]
+      }
+    },
+    "svm_rbf": {
+      "pooled": {
+        "n_total": 44,
+        "accuracy": 0.6363636363636364,
+        "f1_score": 0.1111111111111111,
+        "precision": 0.3333333333333333,
+        "recall": 0.06666666666666667,
+        "confusion_matrix": [
+          [
+            27,
+            2
+          ],
+          [
+            14,
+            1
+          ]
+        ],
+        "auc": 0.503448275862069,
+        "specificity": 0.9310344827586207,
+        "sensitivity": 0.06666666666666667
+      },
+      "mean_std_across_folds": {
+        "accuracy": [
+          0.6361111111111111,
+          0.04339027597725917
+        ],
+        "auc": [
+          0.5288888888888889,
+          0.22799176939876636
+        ]
+      }
+    }
+  },
+  "n_features": 58
+}

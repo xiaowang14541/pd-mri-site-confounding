@@ -1,0 +1,2 @@
+method,n_subjects,n_pca,auc,accuracy,sensitivity,specificity,precision,tp,tn,fp,fn
+PCA+SVM LOO (within ds000245 only),44,20,0.296551724137931,0.6590909090909091,0.06666666666666667,0.9655172413793104,0.5,1,28,1,14

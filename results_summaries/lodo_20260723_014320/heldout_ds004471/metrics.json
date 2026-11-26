@@ -1,0 +1,8 @@
+{
+  "held_out_dataset": "ds004471",
+  "n_val": 40,
+  "n_pd_val": 40,
+  "n_hc_val": 0,
+  "accuracy": 0.275,
+  "auc": null
+}
